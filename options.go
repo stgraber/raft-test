@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft"
 )
 
 // Config sets a hook for tweaking the raft configuration of individual nodes.

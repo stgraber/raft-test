@@ -17,8 +17,8 @@ package network
 import (
 	"sync"
 
-	"github.com/CanonicalLtd/raft-test/internal/event"
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft-test/internal/event"
+	"github.com/stgraber/raft"
 )
 
 // Schedule contains details about under when a certain event should occur.

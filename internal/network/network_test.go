@@ -18,9 +18,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/CanonicalLtd/raft-test/internal/logging"
-	"github.com/CanonicalLtd/raft-test/internal/network"
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft-test/internal/logging"
+	"github.com/stgraber/raft-test/internal/network"
+	"github.com/stgraber/raft"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -15,7 +15,7 @@
 package election
 
 import (
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft"
 )
 
 // Leadership represents the leadership acquired by a server that was elected

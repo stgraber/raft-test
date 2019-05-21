@@ -17,9 +17,9 @@ package rafttest
 import (
 	"fmt"
 
-	"github.com/CanonicalLtd/raft-test/internal/election"
-	"github.com/CanonicalLtd/raft-test/internal/event"
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft-test/internal/election"
+	"github.com/stgraber/raft-test/internal/event"
+	"github.com/stgraber/raft"
 )
 
 // A Term holds information about an event that should happen while a certain

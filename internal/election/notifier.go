@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft"
 )
 
 // Notifiy about leadership changes in a single raft server.

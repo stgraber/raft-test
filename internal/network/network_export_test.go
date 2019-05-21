@@ -14,7 +14,7 @@
 
 package network
 
-import "github.com/hashicorp/raft"
+import "github.com/stgraber/raft"
 
 // Return the transport wrapper of the given server.
 func (n *Network) Transport(id raft.ServerID) raft.Transport {

@@ -17,7 +17,7 @@ package rafttest
 import (
 	"testing"
 
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft"
 )
 
 // Server is a convenience for creating a cluster with a single raft.Raft server

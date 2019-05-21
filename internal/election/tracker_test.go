@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CanonicalLtd/raft-test/internal/election"
-	"github.com/CanonicalLtd/raft-test/internal/logging"
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft-test/internal/election"
+	"github.com/stgraber/raft-test/internal/logging"
+	"github.com/stgraber/raft"
 	"github.com/stretchr/testify/assert"
 )
 

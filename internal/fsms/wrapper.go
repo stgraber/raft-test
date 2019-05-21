@@ -20,9 +20,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/CanonicalLtd/raft-test/internal/event"
+	"github.com/stgraber/raft-test/internal/event"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft"
 	"github.com/pkg/errors"
 )
 

@@ -17,7 +17,7 @@ package rafttest
 import (
 	"io"
 
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft"
 )
 
 // FSM create a dummy FSMs.

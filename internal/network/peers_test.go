@@ -18,7 +18,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft"
 	"github.com/stretchr/testify/assert"
 )
 

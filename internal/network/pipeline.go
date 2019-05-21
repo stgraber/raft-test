@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft"
 )
 
 // Wrap a regular raft.AppendPipeline, adding support for triggering events at

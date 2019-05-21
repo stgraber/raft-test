@@ -15,9 +15,9 @@
 package fsms
 
 import (
-	"github.com/CanonicalLtd/raft-test/internal/event"
+	"github.com/stgraber/raft-test/internal/event"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft"
 )
 
 // Watcher watches all FSMs of a cluster, firing events at certain moments.

@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CanonicalLtd/raft-test"
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft-test"
+	"github.com/stgraber/raft"
 )
 
 // A three-server raft cluster is created, the first server gets elected as

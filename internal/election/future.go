@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft"
 )
 
 // Future represents a request to acquire leadership that will eventually

@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft"
 )
 
 // Tracker consumes the raft.Config.NotifyCh set on each server of a cluster,

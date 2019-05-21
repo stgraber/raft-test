@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CanonicalLtd/raft-test"
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft-test"
+	"github.com/stgraber/raft"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

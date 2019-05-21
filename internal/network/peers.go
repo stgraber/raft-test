@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft"
 )
 
 // Small wrapper around a map of raft.ServerID->peer, offering concurrency

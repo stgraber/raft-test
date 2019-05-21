@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft"
 )
 
 // Return a string representation of the given log entries.

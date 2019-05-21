@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/CanonicalLtd/raft-test/internal/event"
+	"github.com/stgraber/raft-test/internal/event"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft"
 )
 
 // Wrap a regular raft.Transport, adding support for trigger events at

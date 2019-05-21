@@ -17,9 +17,9 @@ package network
 import (
 	"fmt"
 
-	"github.com/CanonicalLtd/raft-test/internal/event"
+	"github.com/stgraber/raft-test/internal/event"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft"
 )
 
 // Network provides control over all transports of a cluster, injecting

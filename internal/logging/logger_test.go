@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/CanonicalLtd/raft-test/internal/logging"
+	"github.com/stgraber/raft-test/internal/logging"
 )
 
 // Just exercise that nothing breaks, there's no way to inspect

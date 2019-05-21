@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CanonicalLtd/raft-test/internal/election"
-	"github.com/CanonicalLtd/raft-test/internal/event"
-	"github.com/CanonicalLtd/raft-test/internal/fsms"
-	"github.com/CanonicalLtd/raft-test/internal/network"
-	"github.com/hashicorp/raft"
+	"github.com/stgraber/raft-test/internal/election"
+	"github.com/stgraber/raft-test/internal/event"
+	"github.com/stgraber/raft-test/internal/fsms"
+	"github.com/stgraber/raft-test/internal/network"
+	"github.com/stgraber/raft"
 	"github.com/hashicorp/go-hclog"
 )
 

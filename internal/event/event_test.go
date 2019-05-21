@@ -17,7 +17,7 @@ package event_test
 import (
 	"testing"
 
-	"github.com/CanonicalLtd/raft-test/internal/event"
+	"github.com/stgraber/raft-test/internal/event"
 	"github.com/stretchr/testify/assert"
 )
 
